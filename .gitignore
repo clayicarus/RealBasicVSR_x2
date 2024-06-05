@@ -128,3 +128,9 @@ mmedit/.mim
 
 # results
 results/
+
+# datasets
+data
+
+# train output
+experiments
