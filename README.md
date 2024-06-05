@@ -64,5 +64,5 @@ mim train mmedit configs/vsr_train_st2_128x128.py --gpus 8
 
 **Note**: We use UDM10 with bicubic downsampling for validation and use VideoLQ for test. You can also download it from [here](https://www.terabox.com/web/share/link?surl=LMuQCVntRegfZSxn7s3hXw&path=%2Fproject%2Fpfnl) and download the VideoLQ dataset using [Dropbox](https://www.dropbox.com/sh/hc06f1livdhutbo/AAAMPy92EOqVjRN8waT0ie8ja?dl=0) / [Google Drive](https://drive.google.com/drive/folders/1-1iJRNdqdFZWOnoUU4xG1Z1QhwsGwMDy?usp=sharing) / [OneDrive](https://entuedu-my.sharepoint.com/:f:/g/personal/chan0899_e_ntu_edu_sg/ErSugvUBxoBMlvSAHhqT5BEB9-4ZaqxzJIcc9uvVa8JGHg?e=WpHJTc).
 
-## Acknowlegement
+## Acknowledgement
 [RealBasicVSR](https://github.com/ckkelvinchan/RealBasicVSR)
