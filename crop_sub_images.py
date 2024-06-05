@@ -76,8 +76,8 @@ def extract_subimages(opt):
         os.makedirs(save_folder)
         print(f'mkdir {save_folder} ...')
     else:
-        print(f'Folder {save_folder} already exists. Exit.')
-        sys.exit(1)
+        print(f'Folder {save_folder} already exists. Skip.')
+        return
 
     img_list = list(mmcv.scandir(input_folder, recursive=True))
 
